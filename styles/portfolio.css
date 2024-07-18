@@ -125,6 +125,38 @@ p {
   border-radius: 20px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #272142;
+  opacity: 0.7;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
