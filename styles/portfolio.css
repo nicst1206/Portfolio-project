@@ -82,6 +82,10 @@ footer {
   padding: 15px;
 }
 
+.featured {
+  font-size: 28px;
+}
+
 .project-text {
   font-size: 16px;
   font-family: var(--main-font);
@@ -235,6 +239,12 @@ nav li.active a {
   .greeting {
     font-size: 28px;
   }
+
+  .featured {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
