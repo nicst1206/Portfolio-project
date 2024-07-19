@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Some information about front-end developer Nicole Stoewer-Rust"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,9 +29,39 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <title>About Nicole Stoewer-Rust</title>
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Nicole Logo"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            alt="Nicole Logo small"
+            class="logo d-block d-md-none"
+          />
+          <ul>
+            <li><a href="/" title="Homepage">Home</a></li>
+            <li class="active">
+              <a href="/about.html" title="About Nicole">About</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Projects by Nicole">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Contact information for Nicole"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -40,7 +74,12 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a class="btn btn-branding">View all projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding"
+              title="projects by Nicole"
+              >View all projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -48,5 +87,56 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box d-none d-md-flex justify-content-between mb-5">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p>Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="contact Nicole"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:jcimzadi@web.de" class="email-link" title="email link"
+          >jcimzadi@web.de</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/nicst1206"
+          target="_blank"
+          title="link to Nicole's GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          title="link to Nicole's Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          title="link to Nicole's Facebook page"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="mt-5 text-centered d-flex justify-content-center">
+        This page was coded by Nicole and is <i class="fa-brands fa-osi"> </i>
+        <a
+          class="text-decoration-none"
+          href="https://github.com/nicst1206"
+          title="Link to GitHub profile"
+        >
+          open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

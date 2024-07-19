@@ -56,12 +56,20 @@ footer {
   margin: 60px 0;
 }
 
+h3 a {
+  color: #272142;
+}
+
+h3 a:hover {
+  color: var(--button-color);
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
   margin: 0;
   line-height: 2;
-  padding: 250px;
+  padding: 100px;
 }
 
 .greeting {
@@ -115,7 +123,7 @@ footer {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-inner {
@@ -261,5 +269,9 @@ nav li.active a {
 
   footer .contact-box {
     padding: 30px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 }
