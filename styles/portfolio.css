@@ -90,6 +90,18 @@ h3 a:hover {
   padding: 15px;
 }
 
+.btn-branding-german {
+  font-family: var(--main-font);
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: medium;
+  width: 200px;
+  height: 85px;
+  padding: 15px;
+}
+
 .featured {
   font-size: 28px;
 }
@@ -198,7 +210,7 @@ footer .icon-link {
   margin: 0 8px;
 }
 
-footer .fa-brands {
+footer .fa-osi {
   margin-left: 10px;
 }
 
