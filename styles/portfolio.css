@@ -194,6 +194,21 @@ footer .social-links a:hover i {
   color: var(--background-color);
 }
 
+footer .icon-link {
+  margin: 0 8px;
+}
+
+footer .fa-brands {
+  margin-left: 10px;
+}
+
+footer .github-link {
+  margin-left: 0px;
+}
+
+footer .icons8-banner {
+  font-size: 14px;
+}
 nav {
   padding: 20px 0;
 }
